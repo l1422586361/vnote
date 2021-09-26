@@ -165,7 +165,7 @@ void VXNotebookConfigMgr::NodeConfig::fromJson(const QJsonObject &p_jobj)
 
 const QString VXNotebookConfigMgr::c_nodeConfigName = "vx.json";
 
-const QString VXNotebookConfigMgr::c_recycleBinFolderName = "vx_recycle_bin";
+const QString VXNotebookConfigMgr::c_recycleBinFolderName = ".vx_recycle_bin";
 
 bool VXNotebookConfigMgr::s_initialized = false;
 
